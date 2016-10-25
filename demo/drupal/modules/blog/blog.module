@@ -33,3 +33,9 @@ function blog_entity_type_alter(array &$entity_types) {
     $entity_types['blog']->set('entity_keys', $entity_keys + array('uuid' => 'uuid'));
   }
 }
+
+function blog_module_implements_alter(&$implementations, $hook) {
+  if ($hook == 'entity_update') {
+    unset($implementations['editor']);
+  }
+}
