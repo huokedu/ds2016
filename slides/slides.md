@@ -1,34 +1,48 @@
-# Drupal and Microservices
+# Drupal <img src="images/d8-logo.png" alt="Drupal 8 logo" width="100" style="background:none; border:none; margin: 0; box-shadow: none">
+
+## + Microservices
+
+Nick Schuch
+
+<nick@previousnext.com.au>
+
+[@iamschuch](https://twitter.com/iamschuch)
+
+---
 
 ## TL;DR
 
-* What are Microservices?
-* Where does Drupal 8 fit in with a Microservice architecture?
-* Demo
+- What are Microservices?
+- Where does Drupal 8 fit in with a Microservice architecture?
+- Demo
 
-## Me
-
-* Sys Ops Lead - PreviousNext
-* Former member of the DrupalCI Initiative
-* Maintainer of tour.module in Drupal 8
+---
 
 ## Rant
 
 Plenty of frontend focused examples, not enough backend examples
 
+---
+
 ## What are Microservices?
 
-_The term "Microservice Architecture" has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data._ - Martin Fowler
+_The term "Microservice Architecture" has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data._
 
-## Goals of a Microservice
+- Martin Fowler
 
-* **Business Capability** - Designed for the domain of the business
-* **Intelligence in the Endpoints** - Well designed API
-* **Decentralized Control of Languages and data** - I can write Golang for this presentation
+---
+
+- **Business Capability** - Designed for the domain of the business
+- **Intelligence in the Endpoints** - Well designed API
+- **Decentralized Control of Languages and data** - I can write Golang for this presentation
+
+---
 
 ## What are Microservices? (Nick edition)
 
 Do one thing and do it well
+
+---
 
 ## The Unix Philosiphy
 
@@ -38,9 +52,11 @@ Do one thing and do it well
 
 https://en.wikipedia.org/wiki/Unix_philosophy
 
+---
+
 ## The Unix Philosiphy (Cont.)
 
-in 1986 an interviewer asked Donald Knuth to write a program that takes a text and a number N in input, and lists the N most used words sorted by their frequencies. Knuth produced a 10-pages Pascal program, to which Douglas McIlroy replied with the following 6-lines shell script
+In 1986 an interviewer asked Donald Knuth to write a program that takes a text and a number N in input, and lists the N most used words sorted by their frequencies. Knuth produced a 10-pages Pascal program, to which Douglas McIlroy replied with the following 6-lines shell script
 
 ```bash
 tr -cs A-Za-z '\n' |
@@ -51,17 +67,25 @@ sort -rn |
 sed ${1}q
 ```
 
-## Drupal is a Monolith
+---
 
-![Current](current.png)
+### Drupal is a Monolith
+
+![Current](images/current.png)
+
+---
 
 ## Where do we fit?
 
-![Microservices](microservices.png)
+![Microservices](images/microservices.png)
 
-## We fit here
+---
 
-![Microservices](microservices_drupal.png)
+## Here!
+
+![Microservices](images/microservices_drupal.png)
+
+---
 
 ## Why?
 
@@ -78,16 +102,24 @@ sed ${1}q
 
 - Drupal is a large code base
 
+---
+
 ## How?
 
 Remote entities to the rescue!
 
+---
+
 ## Demo
 
-![Microservices](demo.png)
+![Microservices](images/demo.png)
+
+---
 
 ## Thankyou
 
-**Url**: https://github.com/nickschuch/ds2016
+Nick Schuch
 
-**Twitter**: @iamschuch
+<nick@previousnext.com.au>
+
+[@iamschuch](https://twitter.com/iamschuch)
