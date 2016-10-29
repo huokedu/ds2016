@@ -57,12 +57,15 @@ class BlogContentEntityStorage extends StorageBase {
    */
   public function getMultiple(array $keys) {
     $result = $this->getAll();
+
     $values = array();
+
     foreach ($keys as $key) {
       if (isset($result[$key])) {
         $values[$key] = $result[$key];
       }
     }
+
     return $values;
   }
 

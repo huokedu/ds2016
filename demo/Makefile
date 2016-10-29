@@ -1,6 +1,6 @@
-.PHONY: all drupal api
+.PHONY: all drupal api frontend
 
-all: drupal api
+all: drupal api frontend
 
 frontend:
 	cd frontend && docker build -t ds2016/frontend:latest .

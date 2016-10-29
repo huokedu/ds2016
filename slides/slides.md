@@ -13,14 +13,16 @@ Nick Schuch
 ## TL;DR
 
 - What are Microservices?
-- Where does Drupal 8 fit in with a Microservice architecture?
+- Where does Drupal 8 fit?
 - Demo
+- Questions
 
 ---
 
-## Rant
+## Experiment out of spite
 
-Plenty of frontend focused examples, not enough backend examples
+* Plenty of frontend focused examples
+* Not enough backend examples
 
 ---
 
@@ -28,19 +30,31 @@ Plenty of frontend focused examples, not enough backend examples
 
 _The term "Microservice Architecture" has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data._
 
-- Martin Fowler
+**Martin Fowler**
 
 ---
 
+## What are Microservices?
+
 - **Business Capability** - Designed for the domain of the business
 - **Intelligence in the Endpoints** - Well designed API
-- **Decentralized Control of Languages and data** - I can write Golang for this presentation
+- **Decentralized Control of Languages and data** - I can write Golang for this presentation!
+
+---
+
+## Building Microservices
+
+![Microservices](images/book.jpg)
+
+http://shop.oreilly.com/product/0636920033158.do
 
 ---
 
 ## What are Microservices? (Nick edition)
 
-Do one thing and do it well
+* Interchangable
+* Simple
+* Do one thing and do it well
 
 ---
 
@@ -71,25 +85,29 @@ sed ${1}q
 
 ### Drupal is a Monolith
 
-![Current](images/current.png)
+![Current](images/current.jpg)
+
+---
+
+### Drupal is a Monolith
+
+ ![Current](images/star.jpg)
 
 ---
 
 ## Where do we fit?
 
-![Microservices](images/microservices.png)
+![Microservices](images/microservices.jpg)
 
 ---
 
 ## Here!
 
-![Microservices](images/microservices_drupal.png)
+![Microservices](images/microservices_drupal.jpg)
 
 ---
 
 ## Why?
-
-**Pros**
 
 - Content editor experiece
 - Extend backends for best practices
@@ -98,21 +116,28 @@ sed ${1}q
   - Mail
   - Search
 
-**Cons**
+---
 
-- Drupal is a large code base
+## Drupal 7
+
+![Batch](images/batch.jpg)
 
 ---
 
-## How?
+## Drupal 8
 
-Remote entities to the rescue!
+* [Content Entity](https://www.drupal.org/docs/8/api/entity-api/create-a-custom-content-entity)
+* Overridden storage
 
 ---
 
 ## Demo
 
-![Microservices](images/demo.png)
+![Microservices](images/demo.jpg)
+
+---
+
+## Questions?
 
 ---
 
