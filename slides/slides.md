@@ -58,7 +58,7 @@ http://shop.oreilly.com/product/0636920033158.do
 
 ---
 
-## The Unix Philosiphy
+## The Unix Philosophy
 
 - Write programs that do one thing and do it well.
 - Write programs to work together.
@@ -68,7 +68,7 @@ https://en.wikipedia.org/wiki/Unix_philosophy
 
 ---
 
-## The Unix Philosiphy (Cont.)
+## The Unix Philosophy (Cont.)
 
 In 1986 an interviewer asked Donald Knuth to write a program that takes a text and a number N in input, and lists the N most used words sorted by their frequencies. Knuth produced a 10-pages Pascal program, to which Douglas McIlroy replied with the following 6-lines shell script
 
